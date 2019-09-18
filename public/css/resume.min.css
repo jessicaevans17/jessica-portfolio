@@ -10,18 +10,15 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
-.background-image {
+/* .background-image {
   background-image: url("../img/backsplash\ copy.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   overflow: scroll;
-}
+  width: auto;
+  height: 700px;
+} */
 
-.secondary-background-image {
-  background-image: url("../img/backsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -93,6 +90,16 @@ p.lead {
   border-radius: 1rem;
   padding: 0.25rem;
   font-size: 1.25rem;
+  box-shadow: 2px 2px 5px 0px #060606;
+  background-color: rgb(238, 238, 235);
+}
+
+.code-sample {
+  height: auto;
+  width: 20rem;
+  border: solid 2px black;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
   box-shadow: 2px 2px 5px 0px #060606;
   background-color: rgb(238, 238, 235);
 }
