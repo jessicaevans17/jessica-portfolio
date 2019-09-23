@@ -10,14 +10,22 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
-/* .background-image {
-  background-image: url("../img/backsplash\ copy.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  overflow: scroll;
-  width: auto;
-  height: 700px;
-} */
+
+.cat {
+  color: rgb(3, 3, 3);
+}
+
+.heart {
+  color: rgb(216, 28, 28);
+}
+
+.coffee {
+  color: rgb(85, 52, 33);
+}
+
+.sun {
+  color: rgb(204, 192, 21);
+}
 
 @media (min-width: 992px) {
   body {
